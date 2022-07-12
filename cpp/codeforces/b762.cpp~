@@ -1,0 +1,17 @@
+#include<bits/stdc++.h>
+using namespace std;
+#define ll long long
+
+
+int main(){
+	vector<ll> arr;
+	ll t;cin >> t;
+	while(t--){
+		ll x;cin >>x;
+		for(ll i=1;i<=x+1;i++){
+			if(i*2<=x)arr.push_back(i*2);
+			if(i*3<=x)arr.push_back(i*3);
+		}
+		cout << arr.size() <<endl;
+	}
+}
