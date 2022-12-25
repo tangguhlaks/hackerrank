@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1665328468 source:d:\kuliah\semester 3\tp mod 3 std\main.cpp
+	"member.h"
+	<iostream>
+
+1665328664 d:\kuliah\semester 3\tp mod 3 std\member.h
+	<iostream>
+	<cstdlib>
+
+1665328764 source:d:\kuliah\semester 3\tp mod 3 std\member.cpp
+	"member.h"
+	<iostream>
+
